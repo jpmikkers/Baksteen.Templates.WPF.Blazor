@@ -1,26 +1,26 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <PackageType>Template</PackageType>
-    <PackageVersion>0.1.0.0</PackageVersion>
-    <PackageId>Baksteen.Templates.WPF.Blazor</PackageId>
-    <Title>Baksteen WPF Blazor Template</Title>
-    <Description>Template for creating a hybrid WPF and Blazor desktop app.</Description>
-	<PackageTags>Blazor;WPF;UI</PackageTags>
-    <PackageProjectUrl>http://github.com/jpmikkers</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/jpmikkers/Templates</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
-    <TargetFramework>net7.0</TargetFramework>
-    <IncludeContentInPack>true</IncludeContentInPack>
-    <IncludeBuildOutput>false</IncludeBuildOutput>
-    <ContentTargetFolders>content</ContentTargetFolders>
-    <NoDefaultExcludes>true</NoDefaultExcludes>
-    <NoPackageAnalysis>true</NoPackageAnalysis>
-  </PropertyGroup>
+	<PropertyGroup>
+		<PackageType>Template</PackageType>
+		<PackageVersion>0.1.1.0</PackageVersion>
+		<PackageId>Baksteen.Templates.WPF.Blazor</PackageId>
+		<Title>Baksteen WPF Blazor Template</Title>
+		<Description>Template for creating a hybrid WPF and Blazor desktop app.</Description>
+		<PackageTags>Blazor;WPF;UI;Desktop;Hybrid;Template</PackageTags>
+		<PackageProjectUrl>http://github.com/jpmikkers</PackageProjectUrl>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/jpmikkers/Baksteen.Templates.WPF.Blazor</RepositoryUrl>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<IncludeContentInPack>true</IncludeContentInPack>
+		<IncludeBuildOutput>false</IncludeBuildOutput>
+		<ContentTargetFolders>content</ContentTargetFolders>
+		<NoDefaultExcludes>true</NoDefaultExcludes>
+		<NoPackageAnalysis>true</NoPackageAnalysis>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
-    <Compile Remove="**\*" />
-  </ItemGroup>
+	<ItemGroup>
+		<Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
+		<Compile Remove="**\*" />
+	</ItemGroup>
 
 </Project>
