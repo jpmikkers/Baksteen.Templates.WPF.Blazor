@@ -1,0 +1,20 @@
+﻿<Window
+    x:Class="WPFBlazorAppTemplate.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:blazor="clr-namespace:Microsoft.AspNetCore.Components.WebView.Wpf;assembly=Microsoft.AspNetCore.Components.WebView.Wpf"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:WPFBlazorAppTemplate"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid>
+        <blazor:BlazorWebView HostPage="wwwroot\index.html" Services="{DynamicResource services}">
+            <blazor:BlazorWebView.RootComponents>
+                <blazor:RootComponent ComponentType="{x:Type local:Main}" Selector="#app" />
+            </blazor:BlazorWebView.RootComponents>
+        </blazor:BlazorWebView>
+    </Grid>
+</Window>

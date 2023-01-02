@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "JPMikkers",
+  "classifications": [ "Blazor", "WPF", "Desktop", "Windows" ],
+  "description": "WPF-Blazor hybrid Template",
+  "groupidentity": "WpfBlazor.App",
+  "identity": "WpfBlazor.App",
+  "name": "WPFBlazor Template",
+  "preferNameDirectory": true,
+  "shortName": "wpfblazor.app",
+  "sourceName": "WPFBlazorAppTemplate",
+  "defaultName": "WPFBlazorApplication",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "symbols": {
+    "Framework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "net7.0",
+          "description": "Target net7.0"
+        }
+      ],
+      "replaces": "FrameworkParameter",
+      "defaultValue": "net7.0"
+    }
+  }
+}
