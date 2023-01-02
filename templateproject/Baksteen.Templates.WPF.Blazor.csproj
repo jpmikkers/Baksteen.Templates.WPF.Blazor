@@ -8,6 +8,8 @@
 		<Description>Template for creating a hybrid WPF and Blazor desktop app.</Description>
 		<PackageTags>Blazor;WPF;UI;Desktop;Hybrid;Template</PackageTags>
 		<PackageProjectUrl>http://github.com/jpmikkers</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	    <PackageReleaseNotes>First release.</PackageReleaseNotes>
 		<RepositoryType>git</RepositoryType>
 		<RepositoryUrl>https://github.com/jpmikkers/Baksteen.Templates.WPF.Blazor</RepositoryUrl>
 		<TargetFramework>netstandard2.0</TargetFramework>
@@ -16,11 +18,20 @@
 		<ContentTargetFolders>content</ContentTargetFolders>
 		<NoDefaultExcludes>true</NoDefaultExcludes>
 		<NoPackageAnalysis>true</NoPackageAnalysis>
+        <Copyright>Copyright (c) JPMikkers 2022</Copyright>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
 		<Compile Remove="**\*" />
 	</ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
