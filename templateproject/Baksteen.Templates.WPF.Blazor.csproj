@@ -2,14 +2,14 @@
 
 	<PropertyGroup>
 		<PackageType>Template</PackageType>
-		<PackageVersion>0.1.1.0</PackageVersion>
+		<PackageVersion>0.1.2.0</PackageVersion>
 		<PackageId>Baksteen.Templates.WPF.Blazor</PackageId>
-		<Title>Baksteen WPF Blazor Template</Title>
+		<Title>WPF Blazor Hybrid Template</Title>
 		<Description>Template for creating a hybrid WPF and Blazor desktop app.</Description>
 		<PackageTags>Blazor;WPF;UI;Desktop;Hybrid;Template</PackageTags>
-		<PackageProjectUrl>http://github.com/jpmikkers</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/jpmikkers/Baksteen.Templates.WPF.Blazor</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-	    <PackageReleaseNotes>First release.</PackageReleaseNotes>
+	    <PackageReleaseNotes>Updated readme, fix copyright date.</PackageReleaseNotes>
 		<RepositoryType>git</RepositoryType>
 		<RepositoryUrl>https://github.com/jpmikkers/Baksteen.Templates.WPF.Blazor</RepositoryUrl>
 		<TargetFramework>netstandard2.0</TargetFramework>
@@ -18,8 +18,9 @@
 		<ContentTargetFolders>content</ContentTargetFolders>
 		<NoDefaultExcludes>true</NoDefaultExcludes>
 		<NoPackageAnalysis>true</NoPackageAnalysis>
-        <Copyright>Copyright (c) JPMikkers 2022</Copyright>
+        <Copyright>Copyright (c) JPMikkers 2023</Copyright>
         <PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -28,10 +29,14 @@
 	</ItemGroup>
 
   <ItemGroup>
-    <None Include="..\README.md">
+    <None Include=".\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+    <None Include=".\templates\csharp\app\.template.config\icon.png">
+	  <Pack>True</Pack>
+	  <PackagePath>\</PackagePath>
+	</None>
   </ItemGroup>
 
 </Project>

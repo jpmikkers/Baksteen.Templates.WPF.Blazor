@@ -24,7 +24,3 @@ Alternatively you can create a new project from commandline as follows:
 To uninstall the template run this command:
 
     dotnet new uninstall Baksteen.Templates.WPF.Blazor
-
-## Screenshot
-
-![WPFBlazor hybrid app](https://github.com/jpmikkers/Baksteen.Templates.WPF.Blazor/blob/main/screenshot.png)
