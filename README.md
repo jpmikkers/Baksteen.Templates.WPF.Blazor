@@ -1,11 +1,11 @@
 # Baksteen.Templates.WPF.Blazor
 Project template for hybrid WPF Blazor .NET 7 application. This is a nice entry point for a WPF based Blazor hybrid project, when you're not in the mood to deal with dotnet Maui's awkward packaging/deployment. A WPF based project will result in a good old executable you can copy and run anywhere as you please.
 
-This template is based on the instructions of:
+This template is based on the instructions here:
 
-    https://learn.microsoft.com/en-us/aspnet/core/blazor/hybrid/?view=aspnetcore-7.0
+- [https://learn.microsoft.com/en-us/aspnet/core/blazor/hybrid/?view=aspnetcore-7.0](https://learn.microsoft.com/en-us/aspnet/core/blazor/hybrid/?view=aspnetcore-7.0)
 
-    https://learn.microsoft.com/en-us/aspnet/core/blazor/hybrid/tutorials/wpf?view=aspnetcore-7.0
+- [https://learn.microsoft.com/en-us/aspnet/core/blazor/hybrid/tutorials/wpf?view=aspnetcore-7.0](https://learn.microsoft.com/en-us/aspnet/core/blazor/hybrid/tutorials/wpf?view=aspnetcore-7.0)
 
 And then extended with the contents of the current mauiblazor project template
 
