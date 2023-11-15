@@ -2,17 +2,17 @@
 
 	<PropertyGroup>
 		<PackageType>Template</PackageType>
-		<PackageVersion>0.1.2.0</PackageVersion>
+		<PackageVersion>0.1.3.0</PackageVersion>
 		<PackageId>Baksteen.Templates.WPF.Blazor</PackageId>
 		<Title>WPF Blazor Hybrid Template</Title>
 		<Description>Template for creating a hybrid WPF and Blazor desktop app.</Description>
 		<PackageTags>Blazor;WPF;UI;Desktop;Hybrid;Template</PackageTags>
 		<PackageProjectUrl>https://github.com/jpmikkers/Baksteen.Templates.WPF.Blazor</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-	    <PackageReleaseNotes>Updated readme, fix copyright date.</PackageReleaseNotes>
+	    <PackageReleaseNotes>Target dotnet 8</PackageReleaseNotes>
 		<RepositoryType>git</RepositoryType>
 		<RepositoryUrl>https://github.com/jpmikkers/Baksteen.Templates.WPF.Blazor</RepositoryUrl>
-		<TargetFramework>netstandard2.0</TargetFramework>
+		<TargetFramework>netstandard2.1</TargetFramework>
 		<IncludeContentInPack>true</IncludeContentInPack>
 		<IncludeBuildOutput>false</IncludeBuildOutput>
 		<ContentTargetFolders>content</ContentTargetFolders>
